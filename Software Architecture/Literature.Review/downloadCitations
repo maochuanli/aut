@@ -1,0 +1,48 @@
+TY  - CONF
+JO  - Cloud Computing (CLOUD), 2012 IEEE 5th International Conference on
+TI  - A Multi-tenant Web Application Framework for SaaS
+T2  - Cloud Computing (CLOUD), 2012 IEEE 5th International Conference on
+IS  - 
+SN  - 2159-6182
+VO  - 
+SP  - 970
+EP  - 971
+AU  - Wonjae Lee
+AU  - Min Choi
+Y1  - 24-29 June 2012
+PY  - 2012
+KW  - cloud computing
+KW  - user interfaces
+KW  - SaaS
+KW  - application server sharing
+KW  - business logic
+KW  - client-side Web application technology
+KW  - configuration level
+KW  - customization level
+KW  - file-level namespace
+KW  - inheritance
+KW  - multitenant Web application framework
+KW  - operational cost
+KW  - polymorphism
+KW  - runtime customization
+KW  - software delivery model
+KW  - software resource
+KW  - software-as-a-service
+KW  - user interface
+KW  - Business
+KW  - Cascading style sheets
+KW  - Computational modeling
+KW  - Servers
+KW  - Software
+KW  - Standards
+KW  - User interfaces
+KW  - Cloud Computing
+KW  - Multi-tenancy
+KW  - Platform as a Service (PaaS)
+KW  - Software as a Service (SaaS)
+VL  - 
+JA  - Cloud Computing (CLOUD), 2012 IEEE 5th International Conference on
+DO  - 10.1109/CLOUD.2012.27
+ER  - 
+
+
