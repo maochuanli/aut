@@ -1,0 +1,415 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="description" content="An Overview of Data Mining at Dun and Bradstreet">
+<meta name="keywords" content="consult, consulting, consultant, data mining, database marketing, database mining, data analysis, dss, decision support, olap, kdd, kdnuggets, knowledge discovery, data visualization, information design, information visualization, one to one marketing, one-to-one marketing, marketing, kurt thearling, thearling">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<title>An Overview of Data Mining at Dun &amp; Bradstreet</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p><br>
+</p>
+<script language="javascript">
+<!--
+var button1a = new Image();
+button1a.src = "../../pics/main1.gif";
+var button1b = new Image();
+button1b.src = "../../pics/main2.gif";
+var button2a = new Image();
+button2a.src = "../../pics/wp1.gif";
+var button2b = new Image();
+button2b.src = "../../pics/wp2.gif";
+var button3a = new Image();
+button3a.src = "../../pics/tutorial1.gif";
+var button3b = new Image();
+button3b.src = "../../pics/tutorial2.gif";
+// -->
+</script>
+
+<p align="center"><a href="http://www.thearling.com/index.htm" target="_blank" alt="Data Mining Page" title="Data Mining Page" onmouseover="document.button1.src = button1b.src;window.status='Data Mining Page';return true" onmouseout="document.button1.src = button1a.src"><img name="button1" src="An%20Overview%20of%20Data%20Mining%20at%20Dun%20&amp;%20Bradstreet_files/main1.gif" border="0" height="34" width="174"></a> <a href="http://www.thearling.com/index.htm#wps" target="_blank" alt="Data Mining White Papers" title="Data Mining White Papers" onmouseover="document.button2.src = button2b.src;window.status='Data Mining White Papers';return true" onmouseout="document.button2.src = button2a.src"><img name="button2" src="An%20Overview%20of%20Data%20Mining%20at%20Dun%20&amp;%20Bradstreet_files/wp1.gif" border="0" height="34" hspace="5" width="174"></a> <a href="http://www.thearling.com/dmintro/dmintro.htm" target="_blank" alt="Data Mining Tutorial" title="Data Mining Tutorial" onmouseover="document.button3.src = button3b.src;window.status='Data Mining Tutorial';return true" onmouseout="document.button3.src = button3a.src"><img name="button3" src="An%20Overview%20of%20Data%20Mining%20at%20Dun%20&amp;%20Bradstreet_files/tutorial1.gif" border="0" height="34" width="174"></a> </p>
+
+<h1><br>
+<font size="5">An Overview of Data Mining at Dun &amp; Bradstreet</font><br>
+<br>
+</h1>
+
+<p>DIG&nbsp;White Paper 95/01 <br>
+September 1995<br>
+<br>
+<br>
+Data Intelligence Group <br>
+Pilot Software<br>
+<br>
+<br>
+ </p>
+
+<h2>Executive Summary</h2>
+
+<p>Data mining, <b><i>the extraction of hidden predictive information from large databases</i></b>,
+is a powerful new technology with great potential to help D&amp;B "preemptively
+define the information market of tomorrow." Data mining tools predict future trends
+and behaviors, allowing businesses to make proactive, knowledge-driven decisions. The
+automated, <i>prospective analyses</i> offered by data mining move beyond the analyses of
+past events provided by retrospective tools. Data mining answers business questions that
+traditionally were too time-consuming to resolve. Data mining tools scour databases for
+hidden patterns, finding predictive information that experts may miss because it lies
+outside their expectations. </p>
+
+<p>D&amp;B companies already know how to collect and refine massive quantities of data to
+deliver relevant and actionable business information. In this sense, D&amp;B has been
+"mining" data for years. Today, some D&amp;B units are already using data mining
+technology to deliver new kinds of answers that rank high in the business value chain
+because they directly fuel return-on-investment decisions. </p>
+
+<p>Data mining techniques can be implemented rapidly on existing software and hardware
+platforms across D&amp;B to enhance the value of existing resources, and can be integrated
+with new products and systems as they are brought on-line. When implemented on high
+performance client-server or parallel processing computers, data mining tools can analyze
+massive databases while a customer or analyst takes a coffee break, then deliver answers
+to questions such as, "Which clients are most likely to respond to my next
+promotional mailing, and why?" </p>
+
+<p>In the D&amp;B units DIG surveyed, we found strong interest and a wide range of
+activities and research in data mining. Groups are engaged in data mining to varying
+degrees, from experimentation by individual analysts to the deployment of completed
+projects. We also found a wealth of potential business opportunities that could open up
+through data mining technology. </p>
+
+<p>The breadth of D&amp;B's collected data places the company in a unique position to take
+advantage of the fact that data mining tools produce better results with larger, broader
+databases. By integrating data mining into its products and services, D&amp;B can leverage
+its existing resources to achieve new revenue. </p>
+
+<p>&nbsp;</p>
+
+<h2>1. A Strategic Opportunity for D&amp;B</h2>
+
+<p>D&amp;B units are connected through the common goal of delivering integrated, global
+solutions to support business decisions. In accomplishing this goal across a broad
+spectrum of markets, D&amp;B units face similar market pressures and opportunities. For
+example, customers urgently require tools to help them keep pace with accelerating growth
+in the size and complexity of business data. At the same time, customers demand ever more
+timely, sophisticated, and widely integrated data analyses. </p>
+
+<p>D&amp;B units work hard today to maintain their leadership against a growing
+competitive threat from other vendors. These vendors have often aggressively exploited new
+technology to capture market advantage. While D&amp;B units have responded successfully to
+these competitive challenges in the past, the question remains: What new technology is
+becoming available today that D&amp;B can leverage proactively? </p>
+
+<p>Data mining is such a technology. D&amp;B is in a unique position to take the lead in
+delivering the benefits of data mining technology to customers. The company has a wealth
+of data unrivaled in its breadth and depth, and the understanding of the relevant markets
+that is necessary to bring this technology to customers successfully. D&amp;B units are
+engaged in markets where data mining can have significant impact. These markets use large
+databases and need the power of data mining to achieve a better understanding of their
+data. </p>
+
+<p>&nbsp;</p>
+
+<h2>2. The Scope of Data Mining</h2>
+
+<p>Data mining derives its name from the similarities between searching for valuable
+business information in a large database - for example, finding linked products in
+Nielsen's gigabytes of store scanner data - and mining a mountain for a vein of valuable
+ore. Both processes require either sifting through an immense amount of material, or
+intelligently probing it to find exactly where the value resides. </p>
+
+<p>Given databases of sufficient size and quality, data mining technology can generate new
+business opportunities by providing these capabilities: 
+
+</p><ul>
+  <li><b>Automatic prediction of trends and behaviors.</b> Data mining automates the process
+    of finding predictive information in large databases. Questions that traditionally
+    required extensive hands-on analysis can now be answered directly from the data - quickly.
+    A typical example of a predictive problem is targeted marketing. Data mining uses data on
+    past promotional mailings to identify the targets most likely to maximize return on
+    investment in future mailings. Other predictive problems include forecasting bankruptcy
+    and other forms of default, and identifying segments of a population likely to respond
+    similarly to given events. <br>
+  </li>
+  <li><b>Automatic discovery of previously unknown patterns.</b> Data mining tools sweep
+    through databases and identify previously hidden patterns in one step. An example of
+    pattern discovery is the analysis of retail sales data to identify seemingly unrelated
+    products that are often purchased together. Other pattern discovery problems include
+    detecting fraudulent credit card transactions and identifying <i>anomalous data</i> that
+    could represent data entry keying errors. <br>
+  </li>
+</ul>
+
+<p>Data mining techniques can yield the benefits of automation when implemented on
+existing software and hardware platforms at D&amp;B, and can be implemented on new systems
+as existing platforms are upgraded and new products developed. When data mining tools are
+implemented on high performance parallel processing systems, they can analyze massive
+databases in minutes. Faster processing means that users can automatically experiment with
+more <i>models</i> to understand complex data. High speed makes it practical for users to
+analyze huge quantities of data. Larger databases, in turn, yield improved predictions.
+Databases can be larger in two senses: 
+
+</p><ul>
+  <li><b>Higher dimensionality.</b> In hands-on analyses, analysts must often limit the number
+    of variables they examine because of time constraints. Yet variables that are discarded
+    because they seem unimportant may carry information about unknown patterns. High
+    performance data mining allows users to explore the full dimensionality of a database,
+    without preselecting a subset of variables. </li>
+  <li><b>Larger samples.</b> Larger samples yield lower estimation errors and variance, and
+    allow users to make inferences about small segments of a population. <br>
+  </li>
+</ul>
+
+<p>A recent Gartner Group Advanced Technology Research Note listed data mining and
+Artificial Intelligence at the top of the five key technology areas that "will
+clearly have a major impact across a wide range of industries within the next three to
+five years." Gartner also listed parallel architectures and data mining as two of the
+top ten new technologies in which companies will invest during the next five years.
+According to a recent Gartner HPC Research Note, "With the rapid advance in data
+capture, transmission and storage, large-systems users will increasingly need to implement
+new and innovative ways to mine the after-market value of their vast stores of detail
+data, employing MPP [massively parallel processing] systems to create new sources of
+business advantage (0.9 probability)." </p>
+
+<p>At D&amp;B, data mining technology provides a basis for new products and for
+enhancements to existing offerings. For example, at DBIS, data mining tools can be used to
+automate more elements of the process of building risk models for a variety of markets.
+Data mining can present a Nielsen customer with the top ten most significant new buying
+patterns each week, or present an IMS customer with patterns of sales calls and marketing
+promotions that have significant impact within certain market niches. </p>
+
+<p>Some of the most commonly used techniques in data mining are: 
+
+</p><ul>
+  <li><b>Artificial neural networks</b>: Non-linear predictive models that learn through
+    training and resemble biological neural networks in structure. </li>
+  <li><b>Genetic algorithms</b>: Optimization techniques that use processes such as genetic
+    combination, mutation, and natural selection in a design based on the concepts of natural
+    evolution. </li>
+  <li><b>Decision trees</b>: Tree-shaped structures that represent sets of decisions. These
+    decisions generate rules for the classification of a dataset. Specific decision tree
+    methods include Classification and Regression Trees (CART) and Chi Square Automatic
+    Interaction Detection (CHAID) . CART and CHAID are decision tree techniques used for
+    classification of a dataset. They provide a set of rules that you can apply to a new
+    (unclassified) dataset to predict which records will have a given outcome. CART segments a
+    dataset by creating 2-way splits while CHAID segments using chi square tests to create
+    multi-way splits. CART typically requires less data preparation than CHAID. </li>
+  <li><b>Nearest neighbor method</b>: A technique that classifies each record in a dataset
+    based on a combination of the classes of the <i>k</i> record(s) most similar to it in a
+    historical dataset (where <i>k</i> 1). Sometimes called the <i>k</i>-nearest neighbor
+    technique. </li>
+  <li><b>Rule induction</b>: The extraction of useful if-then rules from data based on
+    statistical significance. </li>
+  <li><b>Data visualization</b>: The visual interpretation of complex relationships in
+    multidimensional data. </li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h2>3. The Foundations of Data Mining</h2>
+
+<p>Data mining techniques are the result of a long process of research and product
+development. This evolution began when business data were first stored on computers,
+continued with improvements in data access, and more recently, generated technologies that
+allow users to navigate through their data in real time. Data mining takes this
+evolutionary process beyond retrospective data access and navigation to prospective and
+proactive information delivery. </p>
+
+<p>Data mining is ready for application in the business community because it is supported
+by three technologies that are now sufficiently mature: 
+
+</p><ul>
+  <li>Massive data collection and storage </li>
+  <li>Powerful multiprocessor computers </li>
+  <li>Data mining algorithms </li>
+</ul>
+
+<p>Commercial databases are growing at unprecedented rates. The accompanying need for
+improved computational engines can now be met in a cost-effective manner with parallel
+multiprocessor computer technology. Data mining algorithms embody techniques that have
+existed for at least ten years, but have only recently been implemented as mature,
+reliable, understandable tools that consistently outperform older statistical methods. </p>
+
+<p>In the evolution from business data to business information, each new step has built
+upon the previous ones. For example, dynamic data access is critical for drill-through in
+data navigation applications, and the ability to store large databases is critical to data
+mining. From the user's point of view, the four steps listed in Table 1 were revolutionary
+because they allowed new business questions to be answered accurately and quickly. </p>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="1" bordercolor="#000000">
+  <tbody><tr>
+    <td width="133"><font size="1"><b>Evolutionary Step</b></font> </td>
+    <td width="138"><font size="1"><b>Business Question</b></font> </td>
+    <td width="127"><font size="1"><b>Enabling Technologies</b></font> </td>
+    <td width="107"><font size="1"><b>Product Providers</b></font> </td>
+    <td width="102"><font size="1"><b>Characteristics</b></font> </td>
+  </tr>
+  <tr>
+    <td width="133"><font size="1">Data Collection</font> <p align="center"><font size="1">(1960s)</font>
+    </p></td>
+    <td width="138"><font size="1">"What was my average total revenue over the last five
+    years?"</font> </td>
+    <td width="127"><font size="1">Computers, tapes, disks</font> </td>
+    <td width="107"><font size="1">IBM, CDC</font></td>
+    <td width="102"><font size="1">Retrospective, static data delivery</font> </td>
+  </tr>
+  <tr>
+    <td width="133"><font size="1">Data Access</font> <p align="center"><font size="1">(1980s)</font>
+    </p></td>
+    <td width="138"><font size="1">"What were unit sales in New England last March?"</font>
+    </td>
+    <td width="127"><font size="1">Relational databases (RDBMS), Structured Query Language
+    (SQL), ODBC</font> </td>
+    <td width="107"><font size="1">Oracle, Sybase, Informix, IBM, Microsoft</font> </td>
+    <td width="102"><font size="1">Retrospective, dynamic data delivery at record level</font>
+    </td>
+  </tr>
+  <tr>
+    <td width="133"><font size="1">Data Navigation</font> <p align="center"><font size="1">(1990s)</font>
+    </p></td>
+    <td width="138"><font size="1">"What were unit sales in New England last March? Drill
+    down to Boston."</font> </td>
+    <td width="127"><font size="1">On-line analytic processing (OLAP), multidimensional
+    databases, data warehouses</font> </td>
+    <td width="107"><font size="1">Pilot, IRI, Arbor, Redbrick, Evolutionary Technologies</font>
+    </td>
+    <td width="102"><font size="1">Retrospective, dynamic data delivery at multiple levels</font>
+    </td>
+  </tr>
+  <tr>
+    <td width="133"><font size="1">Data Mining</font> <p align="center"><font size="1">(2000)</font>
+    </p></td>
+    <td width="138"><font size="1">"What's likely to happen to Boston unit sales next
+    month? Why?"</font> </td>
+    <td width="127"><font size="1">Advanced algorithms, multiprocessor computers, massive
+    databases</font> </td>
+    <td width="107"><font size="1">Lockheed, IBM, SGI, numerous startups (nascent industry)</font>
+    </td>
+    <td width="102"><font size="1">Prospective, proactive information delivery</font> </td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p align="center"><font size="2"><b>Table 1. Steps in the evolution of data mining.</b></font>
+</p>
+
+<p align="center">&nbsp;</p>
+
+<h2>4. Summary of Findings</h2>
+
+<p>In the units we surveyed, we found strong interest and a wide range of activities and
+research in data mining. Many groups are already engaged in data mining projects, from
+research and experimentation by individual analysts to completed products that have
+already added value to the business. We also found a wealth of potential business
+opportunities that could become available with data mining technology. The following key
+examples provide a flavor of the interest, activities, and opportunities we encountered: 
+
+</p><ul>
+  <li><b>Pilot Software</b> and DIG are exploring the potential of data mining with Pilot's
+    state-of-the-art <i>multidimensional database</i> product line. A multidimensional
+    database is one that has been designed for on-line analytical procession and is structured
+    as a multidimensional hypercube. On-line analytical processing (OLAP) refers to
+    array-oriented database applications that allow users to view, navigate through,
+    manipulate, and analyze multidimensional databases. This combination of technologies is
+    expected to give Pilot a unique market advantage in meeting customers' demands for more
+    and better information. </li>
+</ul>
+
+<ul>
+  <li><b>DBIS</b> units around the world are constantly exploring ways to provide customers
+    with more and better business information. In the Analytical Services group at DBIS North
+    America, analysts work with data mining techniques such as CART and CHAID, and actively
+    pursue research in the theory and applications of neural networks. These analysts are
+    investigating ways to use data mining to automate more of the repetitive, people-intensive
+    portions of analytic tasks. Increased automation would allow the group to bring products
+    to market more quickly, cutting costs and increasing revenues. It would also free analysts
+    to focus on aspects of their work that cannot be automated. </li>
+</ul>
+
+<ul>
+  <li>In Europe, <b>DBIS</b> analysts have been investigating PC-based data mining systems.
+    They see data mining as a technology that can expand the scope of existing tools, bringing
+    advanced analysis capabilities directly to customers. DBIS Japan, in its new alliance with
+    Tokyo Shoko Research (TSR), is also providing new advanced technology for information
+    management and analysis. The Data Intelligence Group (DIG) has been invited to present
+    opportunities for collaboration with TSR in data mining projects. </li>
+</ul>
+
+<ul>
+  <li>Data mining technology is a next step in the evolution of <b>A. C.</b> <b>Nielsen</b>'s
+    current software products and services. For example, data mining is seen as an essential
+    component of the new solutions being developed by Nielsen and Pilot Software, Inc. in
+    Europe. Data mining techniques could also open up new revenue opportunities by adding to
+    the analytic capabilities of such Nielsen products as Opportunity Explorer, Promotion
+    Simulator, and Nielsen Spotlight®. Because data mining tools perform best on very large
+    databases, they are a natural candidate for adding value to Nielsen's new large data
+    engines. Analysts at Nielsen have been investigating data mining technologies offered by
+    IBM, Lockheed, Triada, and Pattern Associates. They are eager to find ways to detect
+    anomalous data that can lead to distortions in analyses. </li>
+</ul>
+
+<ul>
+  <li><b>IMS </b>analysts see data mining as a way to explore their high-dimensional databases
+    to help clients better understand complex purchasing behavior. Analysts are investigating
+    data mining products offered by third parties. DIG is participating in a project at IMS
+    America to evaluate approaches in analyzing the volatility of physicians' prescribing
+    patterns. IMS America analysts have also developed a neural network system for identifying
+    defective data that can distort projections; the system is successful and in use. In
+    Europe, IMS analysts use data visualization tools to provide customized analytic services
+    for clients. Data visualization allows IMS to discover previously unknown facts and to
+    confirm hypotheses about the pharmaceuticals market. </li>
+</ul>
+
+<ul>
+  <li>At <b>Moody's</b>, the Public Finance Department is excited about the possibility of
+    using data mining to deliver advanced tools to its own analysts' desktops. For example,
+    data mining tools such as CART can assist analysts by identifying bonds that are likely to
+    require a review. Data mining tools can also aid in socioeconomic forecasting and in
+    selecting variables for comparing bond issuers. The Corporate Department has researched
+    data mining techniques, and several of its analysts perform econometric modeling and risk
+    analysis using neural networks, <i>k</i>-nearest-neighbor techniques, and genetic
+    algorithms. <br>
+  </li>
+</ul>
+
+<p>We see distinct possibilities for synergy among D&amp;B units in the development and
+application of data mining technology. While each unit has unique business goals, markets,
+and customer problems, many different problems can be addressed using similar core data
+mining technologies. For example, a classification tool such as CART can be used equally
+well to identify municipal bonds whose underlying ratings criteria have changed
+significantly, or to identify physicians whose prescription-writing patterns have changed.
+A tool that selects the best variables to use in creating a credit-scoring model for the
+telecommunications industry could equally well select the variables to use in comparing
+performance profiles of retail sales channels. </p>
+
+<p>&nbsp;</p>
+
+<h2>5. Conclusion</h2>
+
+<p>This survey of a limited number of D&amp;B units points to quantifiable business
+benefits achievable through the integration of data mining technology with D&amp;B
+products and services. Data mining is a powerful technology with great potential for
+adding value to the offerings of D&amp;B units. D&amp;B is in a remarkable position to
+take advantage of this technology: it has the data, and it has the infrastructure to
+support units in collaborating to solve shared problems. </p>
+
+<p>The members of DIG are committed to seeing the benefits of data mining technology
+delivered to D&amp;B customers and intends to further D&amp;B synergy in solving data
+mining problems. We welcome suggestions for other useful activities and for collaboration
+with analysts across D&amp;B. </p>
+
+<hr>
+
+<p>The Data Intelligence Group (DIG) was created by Dun &amp; Bradstreet as a center of
+excellence in data mining. It is composed of scientists, developers, and marketing and
+business analysts. DIG is part of Pilot Software, a Dun &amp; Bradstreet company that
+develops and delivers OLAP database products. Prior to DIG, the five original members of
+the group created the Darwin data mining software application developed at Thinking
+Machines Corporation. </p>
+
+<p align="center">[ <a href="http://www.thearling.com/index.htm" target="_blank">Data Mining Page</a> ] [ <a href="http://www.thearling.com/index.htm#wps">White Papers </a>] [ <a href="http://www.thearling.com/dmintro/dmintro.htm" target="_blank">Data Mining Tutorial</a> ] </p>
+
+
+</body></html>

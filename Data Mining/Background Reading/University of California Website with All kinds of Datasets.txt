@@ -1,0 +1,4 @@
+UCI website
+The University of California, Irvine campus provides a variety of datasets for the use of Data Mining researchers world wide. Their website also contains links to other sites that provide their own datasets.
+
+http://www.ics.uci.edu/~mlearn/MLRepository.html

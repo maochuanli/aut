@@ -1,0 +1,98 @@
+Greater security with IPSec
+Prakasha, Swayam. Enterprise Networks & Servers (Online) (Apr 2006): N_A.
+Turn on hit highlighting for speaking browsers by selecting the Enter button
+Full Text
+
+    Translate Full text
+
+Secure and efficient communication between computers is becoming increasingly more essential as companies try to use the public network infrastructure for supporting communication between their various sites.
+
+While IP has proven to be an efficient and robust protocol when it comes to actually getting data across the Internet, it does not inherently provide any protection of that data. There are no facilities to provide confidentiality, or to ensure the integrity and authenticity of IP datagrams. The IPSec protocols have been proposed as a solution to balance the needs of security and networking between computers.
+
+The basic IPSec protocols are based on the end-to-end security model. IPSec is a set of extensions to the IP protocol, family. It is a method to secure data transmissions between any two hosts. The data path may include one or more secure gateways. The beauty of IPSec lies in its extensibility to new and stronger encryption and authentication methods.
+
+Cryptographic security services provided by this IPSec are
+
+Data integrity: The IP packets are protected against accidental or deliberate modification of their contents. More precisely, the IP payload is protected as well as some of the fields of the IP header.
+
+Authentication: The origin of an IP packet is cryptographically authenticated.
+
+Confidentiality: The payload of an IIP packet or the IP packet itself can be ciphered. The packet flow can also be partially protected.
+
+Anti-replay: The IP traffic is protected by a sequence number that can be used by the destination host to prevent replay attacks.
+
+IPSec provides similar services as SSL but in a way that is completely transparent to the application. The applications do not have to have any knowledge of IPSec to be able to use it. The IPSec protocol suite is based on powerful new encryption technologies and adds security services to the IP layer.
+
+This means that if you use IPSec suite where you would normally use IP, you secure all communications in your network for all applications and for all users more transparently than you would using any other approach. IPSec focuses on the security that can be provided by the IP layer of the network. It does not concern itself with application level security, such as PGP. IPSec can be used to protect one or more paths between a pair of hosts, between a pair of security gateways, or between a security gateway and a host.
+
+IPSec provides confidentiality, integrity, authenticity, and replay protection through new protocols. These protocols are called Authentication Header (AH) and Encapsulated Security Payload (ESP).
+
+AH provides authentication, integrity and replay protection (but not confidentiality). If you receive a packet with AH and the checksum operation is successful, you can be sure about two factors if you and the peer share a secret key and no other party knows the key. These are:
+
+The packet has originated from the expected user.
+
+It was not modified in transit.
+
+AH differs from ESP in one major way - it also secures part of IP header of the packet (such as the source / destination addresses).
+
+ESP can provide authentication, integrity, replay protection and confidentiality of the data (it secures everything in the packet that follows the header). If you receive a packet with ESP and successfully decrypt it, you can be sure that the packet was not wiretapped in the middle, if you and the peer share a secret key and no other party knows the key.
+
+These two protocols can be used by themselves or in conjunction. When used together, they are applied sequentially to the IP packet. The actual cryptographic protocols used are dependent on the configuration of the equipment, decided by the system manager. Therefore, the manager defines policies describing the services required to protect a given traffic. The policies are maintained in a database called the SPD or the Security Policy Database. The system managers can modify the database. There may be a way for users or applications to add some entry in that database, creating consequently a secured channel for application data.
+
+There is another component of IPSec - 'key management'. The key management serves as a foundation for the security provided, and the AH and ESP protocols define the structure that provides authentication, confidentiality and integrity of the data.
+
+It is important to note here that the security of IPSec protocols depends on the secrecy of secret keys. If secret keys are compromised, IPSec protocols can no longer be secure. Though the kernel knows how to secure packets, it does not know which packet requires security. We need to tell the kernel which packet needs to be secured. IPSec policy configuration allows us to specify this.
+
+IPSec provides a strong foundation for implementing security at the IP layer. With IPv6, IPSec holds a promise of providing accountability within the scope of the Internet. Even before IPv6 gets to be used more widely IPSec defines protocols and mechanisms, which can be implemented in the IP environment IPv4.
+
+However, the security afforded by the use of IPSec is critically dependent on many aspects of the operating environment in which the IPSec implementation executes. For example, defects in OS security, poor quality of random number sources, sloppy system management protocols and practices can all degrade the security provided by IPSec. One of the principal strengths of IPSec is that encrypted packets can be routed and switched on any network that supports IP traffic. No upgrade to the network elements is necessary. This enables the packets to traverse the LAN, extranet and Internet easily and transparently.
+AuthorAffiliation
+
+Swayam Prakasha has a master's degree in computer engineering. He has been working in information technology for several years, concentrating on areas such as operating system, networking, network security, electronic commerce, Internet services, LDAP and Web servers. He can be reached at .
+Word count: 965
+
+Copyright Publications & Communications, Inc. Apr 2006
+Indexing (details)
+Cite
+Title
+Greater security with IPSec
+Author
+Prakasha, Swayam
+Publication title
+Enterprise Networks & Servers (Online)
+Pages
+N_A
+Number of pages
+1
+Publication year
+2006
+Publication date
+Apr 2006
+Year
+2006
+Section
+News Indepth
+Publisher
+Publications & Communications, Inc.
+Place of publication
+Cedar Park
+Country of publication
+United States
+Publication subject
+Computers
+Source type
+Trade Journals
+Language of publication
+English
+Document type
+General Information
+ProQuest document ID
+213083079
+Document URL
+http://ezproxy.aut.ac.nz/login?url=http://search.proquest.com/docview/213083079?accountid=8440
+Copyright
+Copyright Publications & Communications, Inc. Apr 2006
+Last updated
+2010-07-09
+Database
+ProQuest Central

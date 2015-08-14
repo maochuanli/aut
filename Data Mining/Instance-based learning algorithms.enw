@@ -1,0 +1,24 @@
+TY  - JOUR
+PY  - 1991
+J2  - Mach Learn
+SN  - 0885-6125
+T2  - Machine Learning
+VL  - 6
+IS  - 1
+DO  - 10.1007/BF00153759
+TI  - Instance-based learning algorithms
+UR  - http://dx.doi.org/10.1007/BF00153759
+PB  - Kluwer Academic Publishers
+DA  - 1991/01/01
+KW  - Supervised concept learning
+KW  - instance-based concept descriptions
+KW  - incremental learning
+KW  - learning theory
+KW  - noise
+KW  - similarity
+AU  - Aha, DavidW.
+AU  - Kibler, Dennis
+AU  - Albert, MarcK.
+SP  - 37-66
+LA  - English
+ER  - 

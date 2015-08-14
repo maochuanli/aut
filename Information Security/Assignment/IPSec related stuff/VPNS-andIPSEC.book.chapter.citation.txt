@@ -1,0 +1,5 @@
+VPNS and IPSEC
+Manuel Mogollon (University of Dallas, USA)Copyright © 2008. 34 pages. Source title: Cryptography and Security Services: Mechanisms and Applications
+ISBN13: 9781599048376|ISBN10: 159904837X|EISBN13: 9781599048390|ISBN13: 9781616927301|
+DOI: 10.4018/978-1-59904-837-6.ch011
+Cite Chapter

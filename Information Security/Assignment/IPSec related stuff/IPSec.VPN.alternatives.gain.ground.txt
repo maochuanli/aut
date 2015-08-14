@@ -1,0 +1,27 @@
+APA
+(American Psychological Assoc.)
+    References
+
+    Greene, T. (2003). IPSec VPN alternatives gain ground. Network World, 20(31), 10. 
+
+
+    IPSec VPN alternatives gain ground. 
+Authors:
+    Greene, Tim
+Source:
+    Network World. 8/4/2003, Vol. 20 Issue 31, p10. 2/3p. 
+Document Type:
+    Article
+Subject Terms:
+    *INTERNET
+    *REMOTE access networks
+    *COMPUTER network protocols
+NAICS/Industry Codes:
+    519130 Internet Publishing and Broadcasting and Web Search Portals
+    517110 Wired Telecommunications Carriers
+Abstract:
+    Reports on the growing demand for alternatives to the IP Security (IPSec) Internet remote-access technology. Secure Sockets Layer (SSL) equipment's addition of the capability to connect remote users to corporate networks as if they were on the local area network; Pros and cons of SSL and IPSec.
+ISSN:
+    0887-7661
+Accession Number:
+    10455707

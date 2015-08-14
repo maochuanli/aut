@@ -1,0 +1,17 @@
+var hideCC = function(btnName) {
+	var btns = $$("#msgAttachment_csBrowse, #newFile_csBrowse");
+	btns.each(function(btn) {
+		btn.hide();
+	});
+}
+Event.observe(document,"dom:loaded", function() { hideCC() });
+Event.observe(window, "load", function() {
+	if(typeof(Message) != 'undefined') {
+		var oldSetupSubmissionForm = Message.setupSubmissionForm;
+		var newSetupSubmissionForm = function() {
+			oldSetupSubmissionForm.apply(this, arguments);
+			hideCC();
+		};
+		Message.setupSubmissionForm = newSetupSubmissionForm;
+	}
+});

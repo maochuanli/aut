@@ -1,0 +1,28 @@
+
+Title
+    IP Security (IPsec)
+Book Title
+    IPv6 in Practice 
+Book Subtitle
+    A Unixer’s Guide to the Next Generation Internet
+Book Part
+    Part V
+Pages
+    pp 311-317
+Copyright
+    2007
+DOI
+    10.1007/978-3-540-48001-3_21
+Print ISBN
+    978-3-540-24524-7
+Online ISBN
+    978-3-540-48001-3
+Publisher
+    Springer Berlin Heidelberg
+Copyright Holder
+    Springer-Verlag Berlin Heidelberg
+Additional Links
+
+        About this Book
+
+

@@ -1,0 +1,8 @@
+
+IPSec VPN design: the definitive design and deployment guide for secure virtual private networks
+Cover Image
+	
+by Bollapragada, Vijay; Khalid, Mohamed; Wainner, Scott
+2005, Cisco Press networking technology series, ISBN 9781587051111, xvii, 352 pages
+"IPSec VPN Design is the first book to present a detailed examination of the design aspects of IPSec protocols that enable secure VPN communication... IPSec (Computer network protocol), Extranets (Computer networks), Security measures
+
