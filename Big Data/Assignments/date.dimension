@@ -1,0 +1,27 @@
+Column name	Data type	Format/Example	Comment
+date_key	int	yyyymmdd	 
+day_date	smalldatetime	 	 
+day_of_week	char	Monday	 
+week_begin_date	smalldatetime	 	 
+week_num	tinyint	1 to 52 or 53	Week 1 defined by business rules
+month_num	tinyint	1 to 12	 
+month_name	char	January	 
+month_short_name	char	Jan	 
+month_end_date	smalldatetime	 	Useful for days in the month
+days_in_month	tinyint	 	Alternative for, or in addition to month_end_date
+yearmo	int	yyyymm	 
+quarter_num	tinyint	1 to 4	 
+quarter_name	char	1Q2000	 
+year	smallint	 	 
+weekend_ind	bit	 	Indicates weekend
+workday_ind	bit	 	Indicates work day
+weekend_weekday	char	weekend	Alternative for weekend_ind and weekday_ind. Can be used to make reports more readable.
+holiday_ind	bit	 	Indicates holiday
+holiday_name	char	Thanksgiving	 
+peak_period_ind	bit	 	Meaning defined by business rules
+
+https://technet.microsoft.com/en-us/library/aa902672(v=sql.80).aspx
+Date and Time Dimension Keys
+In contrast to surrogate keys used in other dimension tables, date and time dimension keys should be "smart." 
+A suggested key for a date dimension is of the form "yyyymmdd". This format is easy for users to remember and incorporate into queries. 
+It is also a recommended surrogate key format for fact tables that are partitioned into multiple tables by date.
